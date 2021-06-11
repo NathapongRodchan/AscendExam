@@ -1,0 +1,18 @@
+<resources>
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name= "AppTheme" parent= "AppBaseTheme" >
+        <item name= "android:textViewStyle" > @style/DefaultTextViewStyle </item>
+    </style>
+
+    <style name= "DefaultTextViewStyle" parent= "android:Widget.TextView" >
+        <item name= "android:fontFamily" > @font/font_regular </item>
+        <item name= "android:textSize" > @dimen/default_text_size </item>
+        <item name= "android:textColor" > @color/black_3F3F3F </item>
+    </style>
+
+</resources>
